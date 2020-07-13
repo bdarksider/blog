@@ -6,7 +6,9 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Bejoy`,
+    siteTitleAlt: `Bejoy`,
+    author: `Bejoy`,
   },
   plugins: [
     {
@@ -25,12 +27,16 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Github`,
+            url: `https://github.com/bdarksider`,
+          },
+          {
+            name: `Goodreads`,
+            url: `https://www.goodreads.com/user/show/29771698-bejoy-mathew`,
           },
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.instagram.com/bejoygm/`,
           },
         ],
       },
@@ -77,4 +83,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
