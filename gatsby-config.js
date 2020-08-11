@@ -28,7 +28,7 @@ module.exports = {
         externalLinks: [
           {
             name: `Github`,
-            url: `https://github.com/bdarksider`,
+            url: `https://github.com/bejoygm`,
           },
           {
             name: `Goodreads`,
